@@ -1,9 +1,10 @@
 import os
-from google import genai
+from google import genai #pip install genai
 from google.genai import types
 
 # API KEY
-api_key = os.getenv("enter here you api_key")
+#make you API key in google ai studio
+api_key = ("enter here you api_key")
 
 if not api_key:
     print("API KEY did not found!")
